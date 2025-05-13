@@ -9,7 +9,15 @@ body {
   min-height: 100vh;
   background: linear-gradient(rgb(255, 255, 255), rgb(134, 217, 255));
 }
+.bells-logo, .bells-logo-alt {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
+.bells-logo-alt {
+  border: 1px solid rgb(180, 180, 180);
+}
 #chatbot-toggler {
   position: fixed;
   bottom: 30px;

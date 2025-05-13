@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import ChatbotIcon from "./components/ChatBotIcon";
 import ChatForm from "./components/ChatForm";
 import ChatMessage from "./components/ChatMessage";
 import { companyInfo } from "./components/companyinfo";
+import Logo from './logo.jpg';
 
 const App = () => {
   const [chatHistory, setChatHistory] = useState([{
@@ -56,17 +56,17 @@ const App = () => {
       <div className="chatbot-popup"> 
         <div className="chat-header">
           <div className="header-info">
-            <ChatbotIcon />
-            <h2 className="logo-text">Bells University AI</h2>
+             <img className="bells-logo" src={Logo} alt="Bells University of Technology" />
+            <h2 className="logo-text">Bells University Chatbot</h2>
           </div>
           <button onClick={() => setShowChatbot(prev => !prev)}  className="material-symbols-outlined">arrow_drop_down</button>
         </div>
         <div ref={chatBodyRef} className="chat-body">
           <div className="message bot-message">
-            <ChatbotIcon />
+            <img className="bells-logo-alt" src={Logo} alt="Bells University of Technology" />
 
             <p className="message-text">
-              Hey Student 👋 <br /> How can i help you today?
+              Hello <br /> How can i help you today?
             </p>
           </div>
 
