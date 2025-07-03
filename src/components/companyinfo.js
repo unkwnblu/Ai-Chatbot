@@ -62,7 +62,13 @@ The university publishes academic journals, including:
 
 Bells University Journal of Applied Sciences and Environment (BUJASE): A platform for research in applied sciences and environmental studies.
 
-Bells University of Technology Journal of Management Sciences (BUTJMS): A journal focusing on research in management sciences.`;
+Bells University of Technology Journal of Management Sciences (BUTJMS): A journal focusing on research in management sciences.
+
+Any information on lecturers isnt available, contact support
+`
+
+;
+
 
 
 

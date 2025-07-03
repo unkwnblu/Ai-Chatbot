@@ -66,7 +66,7 @@ const App = () => {
             <img className="bells-logo-alt" src={Logo} alt="Bells University of Technology" />
 
             <p className="message-text">
-              Hello <br /> How can i help you today?
+              Hello <br /> I'm Bells Univeristy Help Ai chatbot, here to assit you in whatever issues you have?
             </p>
           </div>
 

@@ -11,7 +11,6 @@ This project serves as an example of an AI chatbot application, showcasing a dir
 
 - Clone the repo
 git clone https://github.com/unkwnblu/ai-chatbot.git
-
 - Navigate into the project directory
 cd yourproject
 
